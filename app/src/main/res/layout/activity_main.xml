@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/movback"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/iconmovie" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/textForgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="#FFFFFF"
+        android:text="Forgot Password?"
+        android:fontFamily="@font/rotulonahand"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn1"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/ubuntumedium"
+        android:layout_marginTop="25dp"
+        android:text="LOGIN" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="18dp"
+            android:fontFamily="@font/rotulonahand"
+            android:text="Don't Have an Account?" />
+
+        <TextView
+            android:id="@+id/textRegister"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:fontFamily="@font/rotulonahand"
+            android:text=" Register" />
+    </LinearLayout>
+
+</LinearLayout>
