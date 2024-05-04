@@ -3,10 +3,7 @@ package com.example.lgf
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
-import android.app.Activity
-import android.content.ClipData.Item
-import android.widget.Button
-import android.widget.ImageView
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_home.*
@@ -143,5 +140,6 @@ class Home : AppCompatActivity() {
                 startActivity(intent)
             }
         })
+        imageBack.setOnClickListener(View.OnClickListener {startActivity(Intent(this, MainActivity::class.java)) })
     }
 }

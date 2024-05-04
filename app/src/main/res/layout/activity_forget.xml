@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/iconmovie" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress3"
+        android:id="@+id/forgetEmail"
         android:layout_below="@+id/imgMovie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,10 +31,10 @@
         android:hint="Email" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnReset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextTextEmailAddress3"
+        android:layout_below="@id/forgetEmail"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:background="@drawable/btn1"
@@ -48,7 +48,7 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/btnReset"
         android:layout_marginLeft="120dp"
         android:layout_marginTop="25dp"
         android:text="Back to"
@@ -60,7 +60,7 @@
         android:id="@+id/textBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/btnReset"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="5dp"
         android:layout_toEndOf="@+id/textView7"
