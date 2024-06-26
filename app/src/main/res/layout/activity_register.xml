@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:background="@drawable/rounded_corner"
-        android:padding="15dp"
+        android:padding="12dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Email" />
@@ -35,7 +35,7 @@
         android:layout_below="@+id/textEmail"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounded_corner"
-        android:padding="15dp"
+        android:padding="12dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword" />
@@ -47,7 +47,7 @@
         android:layout_below="@+id/textPassword"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounded_corner"
-        android:padding="15dp"
+        android:padding="12dp"
         android:ems="10"
         android:hint="COnfirm Password"
         android:inputType="textPassword" />

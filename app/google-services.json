@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1032185271339",
+    "firebase_url": "https://moviebox-d965c-default-rtdb.firebaseio.com",
+    "project_id": "moviebox-d965c",
+    "storage_bucket": "moviebox-d965c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032185271339:android:b425219c9365714efb466e",
+        "android_client_info": {
+          "package_name": "com.example.lgf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGuufZXt1dtCkEcOiUKoxS3ZASGL9UcBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

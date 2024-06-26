@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounded_corner"
-        android:padding="11dp"
+        android:padding="12dp"
         android:ems="10"
         android:fontFamily="@font/ubunturegular"
         android:inputType="textPersonName"
